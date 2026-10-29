@@ -1,0 +1,96 @@
+data:
+  source: "huggingface" # Options: "huggingface", "lichess_zst", "local"
+  hf_repo: "Lichess/chess-puzzles"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  zst_url: "https://database.lichess.org/lichess_db_puzzle.csv.zst"
+  min_popularity: 70
+  min_nb_plays: 50
+  target_themes:
+    - "fork"
+    - "pin"
+    - "skewer"
+    - "discoveredAttack"
+  target_samples_per_label: 6000
+  max_total_samples: 30000
+  negative_ratio: 0.20
+  restrict_short_puzzles: false
+  max_solution_moves: 4
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42
+
+features:
+  include_tensor: true
+  board_shape: [12, 8, 8]
+  num_workers: 4
+
+models:
+  random_state: 42
+  logistic_regression:
+    C: 1.0
+    max_iter: 1000
+    solver: "lbfgs"
+  svm:
+    C: 1.0
+    kernel: "linear"
+    probability: true
+  decision_tree:
+    max_depth: 12
+    min_samples_leaf: 5
+  random_forest:
+    n_estimators: 150
+    max_depth: 16
+    min_samples_split: 5
+    n_jobs: -1
+  xgboost:
+    n_estimators: 120
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    n_jobs: -1
+  lightgbm:
+    n_estimators: 120
+    max_depth: 6
+    learning_rate: 0.1
+    n_jobs: -1
+    verbose: -1
+  knn:
+    n_neighbors: 7
+    weights: "distance"
+    n_jobs: -1
+  classifier_chains:
+    n_estimators: 100
+    max_depth: 12
+    n_jobs: -1
+  mlp:
+    hidden_dims: [256, 128, 64]
+    dropout: 0.25
+    lr: 0.001
+    batch_size: 128
+    epochs: 25
+    early_stopping_patience: 5
+    weight_decay: 0.0001
+  cnn:
+    channels: [32, 64, 128]
+    fc_dim: 128
+    dropout: 0.3
+    lr: 0.0008
+    batch_size: 128
+    epochs: 25
+    early_stopping_patience: 5
+    weight_decay: 0.0001
+  ensemble:
+    enabled: true
+    weights:
+      xgboost: 0.25
+      lightgbm: 0.25
+      random_forest: 0.20
+      mlp: 0.15
+      cnn: 0.15
+
+artifacts:
+  dir: "artifacts"
+  models_dir: "artifacts/models"
+  plots_dir: "artifacts/plots"
+  metrics_file: "artifacts/metrics.json"

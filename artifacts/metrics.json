@@ -1,0 +1,834 @@
+{
+  "logistic_regression": {
+    "micro_f1": 0.4527,
+    "macro_f1": 0.4472,
+    "weighted_f1": 0.4465,
+    "hamming_loss": 0.332,
+    "subset_accuracy": 0.2053,
+    "jaccard_score": 0.2896,
+    "per_label": {
+      "fork": {
+        "precision": 0.3136,
+        "recall": 0.4302,
+        "f1": 0.3627,
+        "roc_auc": 0.6248,
+        "pr_auc": 0.329,
+        "confusion_matrix": {
+          "tn": 208,
+          "fp": 81,
+          "fn": 49,
+          "tp": 37
+        }
+      },
+      "pin": {
+        "precision": 0.3351,
+        "recall": 0.759,
+        "f1": 0.4649,
+        "roc_auc": 0.7607,
+        "pr_auc": 0.5018,
+        "confusion_matrix": {
+          "tn": 167,
+          "fp": 125,
+          "fn": 20,
+          "tp": 63
+        }
+      },
+      "skewer": {
+        "precision": 0.3939,
+        "recall": 0.5132,
+        "f1": 0.4457,
+        "roc_auc": 0.7249,
+        "pr_auc": 0.4496,
+        "confusion_matrix": {
+          "tn": 239,
+          "fp": 60,
+          "fn": 37,
+          "tp": 39
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3785,
+        "recall": 0.8072,
+        "f1": 0.5154,
+        "roc_auc": 0.7792,
+        "pr_auc": 0.4737,
+        "confusion_matrix": {
+          "tn": 182,
+          "fp": 110,
+          "fn": 16,
+          "tp": 67
+        }
+      }
+    },
+    "training_time_sec": 0.14,
+    "inference_time_ms": 0.04
+  },
+  "svm": {
+    "micro_f1": 0.4552,
+    "macro_f1": 0.4517,
+    "weighted_f1": 0.4509,
+    "hamming_loss": 0.3,
+    "subset_accuracy": 0.2613,
+    "jaccard_score": 0.2939,
+    "per_label": {
+      "fork": {
+        "precision": 0.307,
+        "recall": 0.407,
+        "f1": 0.35,
+        "roc_auc": 0.6289,
+        "pr_auc": 0.3248,
+        "confusion_matrix": {
+          "tn": 210,
+          "fp": 79,
+          "fn": 51,
+          "tp": 35
+        }
+      },
+      "pin": {
+        "precision": 0.4261,
+        "recall": 0.5904,
+        "f1": 0.4949,
+        "roc_auc": 0.7639,
+        "pr_auc": 0.5026,
+        "confusion_matrix": {
+          "tn": 226,
+          "fp": 66,
+          "fn": 34,
+          "tp": 49
+        }
+      },
+      "skewer": {
+        "precision": 0.3761,
+        "recall": 0.5395,
+        "f1": 0.4432,
+        "roc_auc": 0.7182,
+        "pr_auc": 0.4504,
+        "confusion_matrix": {
+          "tn": 231,
+          "fp": 68,
+          "fn": 35,
+          "tp": 41
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3937,
+        "recall": 0.759,
+        "f1": 0.5185,
+        "roc_auc": 0.778,
+        "pr_auc": 0.4792,
+        "confusion_matrix": {
+          "tn": 195,
+          "fp": 97,
+          "fn": 20,
+          "tp": 63
+        }
+      }
+    },
+    "training_time_sec": 0.33,
+    "inference_time_ms": 0.03
+  },
+  "decision_tree": {
+    "micro_f1": 0.3908,
+    "macro_f1": 0.3937,
+    "weighted_f1": 0.393,
+    "hamming_loss": 0.3533,
+    "subset_accuracy": 0.208,
+    "jaccard_score": 0.2454,
+    "per_label": {
+      "fork": {
+        "precision": 0.2933,
+        "recall": 0.5116,
+        "f1": 0.3729,
+        "roc_auc": 0.5999,
+        "pr_auc": 0.334,
+        "confusion_matrix": {
+          "tn": 183,
+          "fp": 106,
+          "fn": 42,
+          "tp": 44
+        }
+      },
+      "pin": {
+        "precision": 0.3267,
+        "recall": 0.5904,
+        "f1": 0.4206,
+        "roc_auc": 0.6354,
+        "pr_auc": 0.3342,
+        "confusion_matrix": {
+          "tn": 191,
+          "fp": 101,
+          "fn": 34,
+          "tp": 49
+        }
+      },
+      "skewer": {
+        "precision": 0.4156,
+        "recall": 0.4211,
+        "f1": 0.4183,
+        "roc_auc": 0.6496,
+        "pr_auc": 0.2934,
+        "confusion_matrix": {
+          "tn": 254,
+          "fp": 45,
+          "fn": 44,
+          "tp": 32
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.2727,
+        "recall": 0.5422,
+        "f1": 0.3629,
+        "roc_auc": 0.6033,
+        "pr_auc": 0.314,
+        "confusion_matrix": {
+          "tn": 172,
+          "fp": 120,
+          "fn": 38,
+          "tp": 45
+        }
+      }
+    },
+    "training_time_sec": 0.03,
+    "inference_time_ms": 0.0
+  },
+  "random_forest": {
+    "micro_f1": 0.5079,
+    "macro_f1": 0.5104,
+    "weighted_f1": 0.5098,
+    "hamming_loss": 0.2713,
+    "subset_accuracy": 0.2773,
+    "jaccard_score": 0.343,
+    "per_label": {
+      "fork": {
+        "precision": 0.3846,
+        "recall": 0.6395,
+        "f1": 0.4803,
+        "roc_auc": 0.6922,
+        "pr_auc": 0.4493,
+        "confusion_matrix": {
+          "tn": 201,
+          "fp": 88,
+          "fn": 31,
+          "tp": 55
+        }
+      },
+      "pin": {
+        "precision": 0.5053,
+        "recall": 0.5783,
+        "f1": 0.5393,
+        "roc_auc": 0.7882,
+        "pr_auc": 0.4685,
+        "confusion_matrix": {
+          "tn": 245,
+          "fp": 47,
+          "fn": 35,
+          "tp": 48
+        }
+      },
+      "skewer": {
+        "precision": 0.4386,
+        "recall": 0.6579,
+        "f1": 0.5263,
+        "roc_auc": 0.771,
+        "pr_auc": 0.5562,
+        "confusion_matrix": {
+          "tn": 235,
+          "fp": 64,
+          "fn": 26,
+          "tp": 50
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3878,
+        "recall": 0.6867,
+        "f1": 0.4957,
+        "roc_auc": 0.7734,
+        "pr_auc": 0.4959,
+        "confusion_matrix": {
+          "tn": 202,
+          "fp": 90,
+          "fn": 26,
+          "tp": 57
+        }
+      }
+    },
+    "training_time_sec": 0.58,
+    "inference_time_ms": 0.21
+  },
+  "xgboost": {
+    "micro_f1": 0.4697,
+    "macro_f1": 0.4739,
+    "weighted_f1": 0.4729,
+    "hamming_loss": 0.3147,
+    "subset_accuracy": 0.1947,
+    "jaccard_score": 0.3114,
+    "per_label": {
+      "fork": {
+        "precision": 0.3099,
+        "recall": 0.6163,
+        "f1": 0.4125,
+        "roc_auc": 0.6714,
+        "pr_auc": 0.3814,
+        "confusion_matrix": {
+          "tn": 171,
+          "fp": 118,
+          "fn": 33,
+          "tp": 53
+        }
+      },
+      "pin": {
+        "precision": 0.4587,
+        "recall": 0.6024,
+        "f1": 0.5208,
+        "roc_auc": 0.7604,
+        "pr_auc": 0.5002,
+        "confusion_matrix": {
+          "tn": 233,
+          "fp": 59,
+          "fn": 33,
+          "tp": 50
+        }
+      },
+      "skewer": {
+        "precision": 0.3841,
+        "recall": 0.6974,
+        "f1": 0.4953,
+        "roc_auc": 0.7416,
+        "pr_auc": 0.4856,
+        "confusion_matrix": {
+          "tn": 214,
+          "fp": 85,
+          "fn": 23,
+          "tp": 53
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3681,
+        "recall": 0.6386,
+        "f1": 0.467,
+        "roc_auc": 0.7329,
+        "pr_auc": 0.4027,
+        "confusion_matrix": {
+          "tn": 201,
+          "fp": 91,
+          "fn": 30,
+          "tp": 53
+        }
+      }
+    },
+    "training_time_sec": 2.29,
+    "inference_time_ms": 0.06
+  },
+  "lightgbm": {
+    "micro_f1": 0.461,
+    "macro_f1": 0.4631,
+    "weighted_f1": 0.462,
+    "hamming_loss": 0.2993,
+    "subset_accuracy": 0.2347,
+    "jaccard_score": 0.3019,
+    "per_label": {
+      "fork": {
+        "precision": 0.3333,
+        "recall": 0.5465,
+        "f1": 0.4141,
+        "roc_auc": 0.6715,
+        "pr_auc": 0.4029,
+        "confusion_matrix": {
+          "tn": 195,
+          "fp": 94,
+          "fn": 39,
+          "tp": 47
+        }
+      },
+      "pin": {
+        "precision": 0.3684,
+        "recall": 0.5904,
+        "f1": 0.4537,
+        "roc_auc": 0.7516,
+        "pr_auc": 0.4732,
+        "confusion_matrix": {
+          "tn": 208,
+          "fp": 84,
+          "fn": 34,
+          "tp": 49
+        }
+      },
+      "skewer": {
+        "precision": 0.3984,
+        "recall": 0.6447,
+        "f1": 0.4925,
+        "roc_auc": 0.7197,
+        "pr_auc": 0.4767,
+        "confusion_matrix": {
+          "tn": 225,
+          "fp": 74,
+          "fn": 27,
+          "tp": 49
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.4352,
+        "recall": 0.5663,
+        "f1": 0.4921,
+        "roc_auc": 0.7613,
+        "pr_auc": 0.4492,
+        "confusion_matrix": {
+          "tn": 231,
+          "fp": 61,
+          "fn": 36,
+          "tp": 47
+        }
+      }
+    },
+    "training_time_sec": 1.69,
+    "inference_time_ms": 0.09
+  },
+  "knn": {
+    "micro_f1": 0.4576,
+    "macro_f1": 0.4611,
+    "weighted_f1": 0.4603,
+    "hamming_loss": 0.3367,
+    "subset_accuracy": 0.2187,
+    "jaccard_score": 0.3003,
+    "per_label": {
+      "fork": {
+        "precision": 0.2902,
+        "recall": 0.6512,
+        "f1": 0.4014,
+        "roc_auc": 0.639,
+        "pr_auc": 0.3779,
+        "confusion_matrix": {
+          "tn": 152,
+          "fp": 137,
+          "fn": 30,
+          "tp": 56
+        }
+      },
+      "pin": {
+        "precision": 0.3775,
+        "recall": 0.6867,
+        "f1": 0.4872,
+        "roc_auc": 0.7235,
+        "pr_auc": 0.4043,
+        "confusion_matrix": {
+          "tn": 198,
+          "fp": 94,
+          "fn": 26,
+          "tp": 57
+        }
+      },
+      "skewer": {
+        "precision": 0.4158,
+        "recall": 0.5526,
+        "f1": 0.4746,
+        "roc_auc": 0.7324,
+        "pr_auc": 0.5486,
+        "confusion_matrix": {
+          "tn": 240,
+          "fp": 59,
+          "fn": 34,
+          "tp": 42
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3671,
+        "recall": 0.6988,
+        "f1": 0.4813,
+        "roc_auc": 0.7354,
+        "pr_auc": 0.4745,
+        "confusion_matrix": {
+          "tn": 192,
+          "fp": 100,
+          "fn": 25,
+          "tp": 58
+        }
+      }
+    },
+    "training_time_sec": 0.0,
+    "inference_time_ms": 0.08
+  },
+  "classifier_chains": {
+    "micro_f1": 0.4932,
+    "macro_f1": 0.4918,
+    "weighted_f1": 0.4902,
+    "hamming_loss": 0.274,
+    "subset_accuracy": 0.3067,
+    "jaccard_score": 0.3292,
+    "per_label": {
+      "fork": {
+        "precision": 0.3302,
+        "recall": 0.407,
+        "f1": 0.3646,
+        "roc_auc": 0.6509,
+        "pr_auc": 0.408,
+        "confusion_matrix": {
+          "tn": 218,
+          "fp": 71,
+          "fn": 51,
+          "tp": 35
+        }
+      },
+      "pin": {
+        "precision": 0.5476,
+        "recall": 0.5542,
+        "f1": 0.5509,
+        "roc_auc": 0.7927,
+        "pr_auc": 0.4673,
+        "confusion_matrix": {
+          "tn": 254,
+          "fp": 38,
+          "fn": 37,
+          "tp": 46
+        }
+      },
+      "skewer": {
+        "precision": 0.3986,
+        "recall": 0.7237,
+        "f1": 0.514,
+        "roc_auc": 0.7805,
+        "pr_auc": 0.5226,
+        "confusion_matrix": {
+          "tn": 216,
+          "fp": 83,
+          "fn": 21,
+          "tp": 55
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.4129,
+        "recall": 0.7711,
+        "f1": 0.5378,
+        "roc_auc": 0.7718,
+        "pr_auc": 0.448,
+        "confusion_matrix": {
+          "tn": 201,
+          "fp": 91,
+          "fn": 19,
+          "tp": 64
+        }
+      }
+    },
+    "training_time_sec": 1.1,
+    "inference_time_ms": 1.31
+  },
+  "mlp": {
+    "micro_f1": 0.453,
+    "macro_f1": 0.4517,
+    "weighted_f1": 0.4502,
+    "hamming_loss": 0.2833,
+    "subset_accuracy": 0.2853,
+    "jaccard_score": 0.2936,
+    "per_label": {
+      "fork": {
+        "precision": 0.3567,
+        "recall": 0.6512,
+        "f1": 0.4609,
+        "roc_auc": 0.7,
+        "pr_auc": 0.404,
+        "confusion_matrix": {
+          "tn": 188,
+          "fp": 101,
+          "fn": 30,
+          "tp": 56
+        }
+      },
+      "pin": {
+        "precision": 0.4019,
+        "recall": 0.5181,
+        "f1": 0.4526,
+        "roc_auc": 0.7213,
+        "pr_auc": 0.4525,
+        "confusion_matrix": {
+          "tn": 228,
+          "fp": 64,
+          "fn": 40,
+          "tp": 43
+        }
+      },
+      "skewer": {
+        "precision": 0.4694,
+        "recall": 0.6053,
+        "f1": 0.5287,
+        "roc_auc": 0.7687,
+        "pr_auc": 0.5447,
+        "confusion_matrix": {
+          "tn": 247,
+          "fp": 52,
+          "fn": 30,
+          "tp": 46
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3563,
+        "recall": 0.3735,
+        "f1": 0.3647,
+        "roc_auc": 0.7023,
+        "pr_auc": 0.3723,
+        "confusion_matrix": {
+          "tn": 236,
+          "fp": 56,
+          "fn": 52,
+          "tp": 31
+        }
+      }
+    },
+    "training_time_sec": 5.81,
+    "inference_time_ms": 0.2
+  },
+  "cnn": {
+    "micro_f1": 0.4102,
+    "macro_f1": 0.4143,
+    "weighted_f1": 0.4132,
+    "hamming_loss": 0.464,
+    "subset_accuracy": 0.0747,
+    "jaccard_score": 0.2623,
+    "per_label": {
+      "fork": {
+        "precision": 0.288,
+        "recall": 0.8372,
+        "f1": 0.4286,
+        "roc_auc": 0.6484,
+        "pr_auc": 0.3374,
+        "confusion_matrix": {
+          "tn": 111,
+          "fp": 178,
+          "fn": 14,
+          "tp": 72
+        }
+      },
+      "pin": {
+        "precision": 0.2635,
+        "recall": 0.8795,
+        "f1": 0.4056,
+        "roc_auc": 0.6759,
+        "pr_auc": 0.3706,
+        "confusion_matrix": {
+          "tn": 88,
+          "fp": 204,
+          "fn": 10,
+          "tp": 73
+        }
+      },
+      "skewer": {
+        "precision": 0.3821,
+        "recall": 0.6184,
+        "f1": 0.4724,
+        "roc_auc": 0.7625,
+        "pr_auc": 0.524,
+        "confusion_matrix": {
+          "tn": 223,
+          "fp": 76,
+          "fn": 29,
+          "tp": 47
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.2475,
+        "recall": 0.6024,
+        "f1": 0.3509,
+        "roc_auc": 0.562,
+        "pr_auc": 0.2599,
+        "confusion_matrix": {
+          "tn": 140,
+          "fp": 152,
+          "fn": 33,
+          "tp": 50
+        }
+      }
+    },
+    "training_time_sec": 19.52,
+    "inference_time_ms": 0.59
+  },
+  "ensemble": {
+    "micro_f1": 0.4896,
+    "macro_f1": 0.4908,
+    "weighted_f1": 0.4901,
+    "hamming_loss": 0.2627,
+    "subset_accuracy": 0.2827,
+    "jaccard_score": 0.3255,
+    "per_label": {
+      "fork": {
+        "precision": 0.384,
+        "recall": 0.5581,
+        "f1": 0.455,
+        "roc_auc": 0.7074,
+        "pr_auc": 0.4274,
+        "confusion_matrix": {
+          "tn": 212,
+          "fp": 77,
+          "fn": 38,
+          "tp": 48
+        }
+      },
+      "pin": {
+        "precision": 0.5342,
+        "recall": 0.4699,
+        "f1": 0.5,
+        "roc_auc": 0.7736,
+        "pr_auc": 0.5079,
+        "confusion_matrix": {
+          "tn": 258,
+          "fp": 34,
+          "fn": 44,
+          "tp": 39
+        }
+      },
+      "skewer": {
+        "precision": 0.4381,
+        "recall": 0.6053,
+        "f1": 0.5083,
+        "roc_auc": 0.777,
+        "pr_auc": 0.5673,
+        "confusion_matrix": {
+          "tn": 240,
+          "fp": 59,
+          "fn": 30,
+          "tp": 46
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3972,
+        "recall": 0.6747,
+        "f1": 0.5,
+        "roc_auc": 0.7679,
+        "pr_auc": 0.4547,
+        "confusion_matrix": {
+          "tn": 207,
+          "fp": 85,
+          "fn": 27,
+          "tp": 56
+        }
+      }
+    },
+    "training_time_sec": 0.0,
+    "inference_time_ms": 0.81
+  },
+  "baseline_dummy": {
+    "micro_f1": 0.0,
+    "macro_f1": 0.0,
+    "weighted_f1": 0.0,
+    "hamming_loss": 0.2187,
+    "subset_accuracy": 0.2053,
+    "jaccard_score": 0.0,
+    "per_label": {
+      "fork": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.2293,
+        "confusion_matrix": {
+          "tn": 289,
+          "fp": 0,
+          "fn": 86,
+          "tp": 0
+        }
+      },
+      "pin": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.2213,
+        "confusion_matrix": {
+          "tn": 292,
+          "fp": 0,
+          "fn": 83,
+          "tp": 0
+        }
+      },
+      "skewer": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.2027,
+        "confusion_matrix": {
+          "tn": 299,
+          "fp": 0,
+          "fn": 76,
+          "tp": 0
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.2213,
+        "confusion_matrix": {
+          "tn": 292,
+          "fp": 0,
+          "fn": 83,
+          "tp": 0
+        }
+      }
+    },
+    "training_time_sec": 0.0,
+    "inference_time_ms": 0.01
+  },
+  "baseline_rules": {
+    "micro_f1": 0.3827,
+    "macro_f1": 0.3262,
+    "weighted_f1": 0.3277,
+    "hamming_loss": 0.3527,
+    "subset_accuracy": 0.144,
+    "jaccard_score": 0.204,
+    "per_label": {
+      "fork": {
+        "precision": 0.3448,
+        "recall": 0.1163,
+        "f1": 0.1739,
+        "roc_auc": 0.5253,
+        "pr_auc": 0.2428,
+        "confusion_matrix": {
+          "tn": 270,
+          "fp": 19,
+          "fn": 76,
+          "tp": 10
+        }
+      },
+      "pin": {
+        "precision": 0.3143,
+        "recall": 0.7952,
+        "f1": 0.4505,
+        "roc_auc": 0.651,
+        "pr_auc": 0.2952,
+        "confusion_matrix": {
+          "tn": 148,
+          "fp": 144,
+          "fn": 17,
+          "tp": 66
+        }
+      },
+      "skewer": {
+        "precision": 0.1972,
+        "recall": 0.1842,
+        "f1": 0.1905,
+        "roc_auc": 0.4968,
+        "pr_auc": 0.2017,
+        "confusion_matrix": {
+          "tn": 242,
+          "fp": 57,
+          "fn": 62,
+          "tp": 14
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3379,
+        "recall": 0.8916,
+        "f1": 0.4901,
+        "roc_auc": 0.6975,
+        "pr_auc": 0.3253,
+        "confusion_matrix": {
+          "tn": 147,
+          "fp": 145,
+          "fn": 9,
+          "tp": 74
+        }
+      }
+    },
+    "training_time_sec": 0.0,
+    "inference_time_ms": 0.5
+  }
+}

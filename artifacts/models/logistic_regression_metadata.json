@@ -1,0 +1,153 @@
+{
+  "key": "logistic_regression",
+  "name": "Logistic Regression",
+  "created_at": "2026-10-29T16:45:59.704515",
+  "thresholds": {
+    "fork": 0.25,
+    "pin": 0.15,
+    "skewer": 0.33,
+    "discoveredAttack": 0.17
+  },
+  "metrics": {
+    "micro_f1": 0.4527,
+    "macro_f1": 0.4472,
+    "weighted_f1": 0.4465,
+    "hamming_loss": 0.332,
+    "subset_accuracy": 0.2053,
+    "jaccard_score": 0.2896,
+    "per_label": {
+      "fork": {
+        "precision": 0.3136,
+        "recall": 0.4302,
+        "f1": 0.3627,
+        "roc_auc": 0.6248,
+        "pr_auc": 0.329,
+        "confusion_matrix": {
+          "tn": 208,
+          "fp": 81,
+          "fn": 49,
+          "tp": 37
+        }
+      },
+      "pin": {
+        "precision": 0.3351,
+        "recall": 0.759,
+        "f1": 0.4649,
+        "roc_auc": 0.7607,
+        "pr_auc": 0.5018,
+        "confusion_matrix": {
+          "tn": 167,
+          "fp": 125,
+          "fn": 20,
+          "tp": 63
+        }
+      },
+      "skewer": {
+        "precision": 0.3939,
+        "recall": 0.5132,
+        "f1": 0.4457,
+        "roc_auc": 0.7249,
+        "pr_auc": 0.4496,
+        "confusion_matrix": {
+          "tn": 239,
+          "fp": 60,
+          "fn": 37,
+          "tp": 39
+        }
+      },
+      "discoveredAttack": {
+        "precision": 0.3785,
+        "recall": 0.8072,
+        "f1": 0.5154,
+        "roc_auc": 0.7792,
+        "pr_auc": 0.4737,
+        "confusion_matrix": {
+          "tn": 182,
+          "fp": 110,
+          "fn": 16,
+          "tp": 67
+        }
+      }
+    },
+    "training_time_sec": 0.14,
+    "inference_time_ms": 0.04
+  },
+  "training_time_sec": 0.1386885643005371,
+  "inference_time_ms": 0.04485130310058594,
+  "feature_names": [
+    "turn",
+    "is_check",
+    "legal_moves_count",
+    "white_castling_kingside",
+    "white_castling_queenside",
+    "black_castling_kingside",
+    "black_castling_queenside",
+    "count_white_pawn",
+    "count_black_pawn",
+    "diff_pawn",
+    "count_white_knight",
+    "count_black_knight",
+    "diff_knight",
+    "count_white_bishop",
+    "count_black_bishop",
+    "diff_bishop",
+    "count_white_rook",
+    "count_black_rook",
+    "diff_rook",
+    "count_white_queen",
+    "count_black_queen",
+    "diff_queen",
+    "total_material_white",
+    "total_material_black",
+    "material_balance",
+    "material_balance_pov",
+    "white_hanging_pieces",
+    "black_hanging_pieces",
+    "hanging_difference",
+    "white_undefended_pieces",
+    "black_undefended_pieces",
+    "white_attacked_by_lower",
+    "black_attacked_by_lower",
+    "avg_defenders_white",
+    "avg_defenders_black",
+    "attacks_white_pawn",
+    "attacks_black_pawn",
+    "attacks_white_knight",
+    "attacks_black_knight",
+    "attacks_white_bishop",
+    "attacks_black_bishop",
+    "attacks_white_rook",
+    "attacks_black_rook",
+    "attacks_white_queen",
+    "attacks_black_queen",
+    "opponent_legal_moves",
+    "max_fork_targets_pawn",
+    "max_fork_targets_knight",
+    "max_fork_targets_bishop",
+    "max_fork_targets_rook",
+    "max_fork_targets_queen",
+    "max_fork_targets_overall",
+    "rule_fork_count",
+    "rule_fork_flag",
+    "white_absolute_pins",
+    "black_absolute_pins",
+    "total_absolute_pins",
+    "rule_pin_count",
+    "rule_pin_flag",
+    "rule_skewer_count",
+    "rule_skewer_flag",
+    "aligned_slider_targets",
+    "rule_discovered_count",
+    "rule_discovered_flag",
+    "discovered_checks_count",
+    "white_attackers_near_king",
+    "white_king_file_open",
+    "black_attackers_near_king",
+    "black_king_file_open"
+  ],
+  "config": {
+    "C": 1.0,
+    "max_iter": 1000,
+    "solver": "lbfgs"
+  }
+}

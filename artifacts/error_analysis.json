@@ -1,0 +1,845 @@
+[
+  {
+    "puzzle_id": "5X5ng",
+    "fen": "6b1/p5b1/1p1n2P1/1Pk1p1P1/P3B1K1/2P2P2/8/2B5 w - - 13 37",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "skewer"
+    ],
+    "rating": 1369,
+    "themes": "crushing deflection endgame master masterVsMaster short skewer"
+  },
+  {
+    "puzzle_id": "FNzlD",
+    "fen": "3r4/5pk1/6p1/p7/6P1/4R1K1/4p1B1/8 b - - 1 36",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "fork",
+      "skewer"
+    ],
+    "false_positives": [
+      "fork",
+      "skewer"
+    ],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1323,
+    "themes": "advancedPawn crushing deflection endgame master pin promotion short"
+  },
+  {
+    "puzzle_id": "DZGy5",
+    "fen": "3r2k1/2B4p/pq2p1p1/5p2/2B1b3/P5QP/2r2bP1/R4RK1 w - - 0 28",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "pin",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 881,
+    "themes": "advantage middlegame pin short"
+  },
+  {
+    "puzzle_id": "Iejup",
+    "fen": "2r3k1/bb2q2p/p5p1/1p2nB2/1P4Q1/P3P3/1B3PPP/2R3K1 w - - 1 27",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "fork"
+    ],
+    "rating": 2317,
+    "themes": "crushing fork middlegame short"
+  },
+  {
+    "puzzle_id": "3sSHi",
+    "fen": "2k4r/1b1p4/4p1p1/p1b2p2/1pPn4/P5PP/1P1BB1N1/R2QR1K1 b - - 0 23",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 1986,
+    "themes": "discoveredCheck doubleCheck fork mate mateIn2 middlegame short"
+  },
+  {
+    "puzzle_id": "0MBEE",
+    "fen": "6k1/3r1bpp/2pn1p2/P4P2/1P1P4/B1PKR2P/8/5R2 b - - 3 39",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "skewer"
+    ],
+    "rating": 973,
+    "themes": "advantage endgame short skewer"
+  },
+  {
+    "puzzle_id": "Icaij",
+    "fen": "2k4r/q4p2/3Pp3/3p4/PQ6/6p1/2P4P/1R5K w - - 0 33",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [
+      "fork"
+    ],
+    "rating": 1803,
+    "themes": "crushing endgame fork master short"
+  },
+  {
+    "puzzle_id": "Hph9j",
+    "fen": "n7/P1r1k1pp/R7/1p3p2/1N3P2/4KP2/7P/8 w - - 2 41",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "fork",
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [],
+    "rating": 946,
+    "themes": "crushing endgame fork short"
+  },
+  {
+    "puzzle_id": "BZBSo",
+    "fen": "8/5R2/R6p/1pk4P/8/KP6/P3r3/8 b - - 0 46",
+    "true_labels": [],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [],
+    "rating": 893,
+    "themes": "deflection endgame mate mateIn2 rookEndgame short"
+  },
+  {
+    "puzzle_id": "Jgs0q",
+    "fen": "5rk1/pppr1ppp/1bn3q1/3NPnB1/8/1Q3N2/PP3PPP/R4RK1 w - - 7 17",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "fork",
+      "pin"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [],
+    "rating": 1973,
+    "themes": "advantage middlegame pin short trappedPiece"
+  },
+  {
+    "puzzle_id": "0VFAc",
+    "fen": "5rk1/5ppp/2p1p3/2qpPn1b/Q4P2/5N2/6PP/2B2R1K w - - 0 23",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "skewer"
+    ],
+    "rating": 1520,
+    "themes": "equality middlegame short skewer"
+  },
+  {
+    "puzzle_id": "8CIef",
+    "fen": "8/5pk1/5p2/6p1/6qp/2PQ2P1/P2R1PKP/4r3 b - - 3 42",
+    "true_labels": [],
+    "pred_labels": [
+      "pin"
+    ],
+    "false_positives": [
+      "pin"
+    ],
+    "false_negatives": [],
+    "rating": 1193,
+    "themes": "endgame mate mateIn1 oneMove"
+  },
+  {
+    "puzzle_id": "0owy0",
+    "fen": "2k1r3/1pp2p2/pn3q1p/8/3r2p1/P1Q1B3/P3BPPP/R3K2R b KQ - 1 24",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "pin"
+    ],
+    "false_positives": [
+      "pin"
+    ],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 873,
+    "themes": "advantage discoveredAttack middlegame short"
+  },
+  {
+    "puzzle_id": "9DCff",
+    "fen": "8/8/2kp1K2/3R1B2/1P2P3/8/5r2/1b6 b - - 0 46",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1892,
+    "themes": "advantage endgame long pin quietMove"
+  },
+  {
+    "puzzle_id": "JYVlF",
+    "fen": "r3k2r/p1pnq3/Bp2bp1p/3p2N1/3Q4/P1P1P1P1/5PP1/R3K2R b KQkq - 2 19",
+    "true_labels": [],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 1810,
+    "themes": "crushing middlegame short"
+  },
+  {
+    "puzzle_id": "Fyct2",
+    "fen": "r5k1/pbp1nppp/4p3/1p1rP3/4NP2/2P1P1B1/PP4PP/2RR2K1 b - - 4 18",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 738,
+    "themes": "crushing discoveredAttack kingsideAttack middlegame short"
+  },
+  {
+    "puzzle_id": "8LyIc",
+    "fen": "5r2/3q1pkp/2R1pnp1/1Q1p4/3P4/P1B1PPPP/8/6K1 b - - 2 28",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "skewer"
+    ],
+    "rating": 1568,
+    "themes": "advantage endgame long skewer"
+  },
+  {
+    "puzzle_id": "7SkbV",
+    "fen": "6k1/pp3ppp/4p3/5b2/2qP4/2n1P2P/PB3PP1/2Q1K2R b K - 3 21",
+    "true_labels": [],
+    "pred_labels": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 904,
+    "themes": "endgame mate mateIn1 oneMove"
+  },
+  {
+    "puzzle_id": "A60px",
+    "fen": "r2qr1k1/5ppp/p2b2b1/1p1Q4/8/2P1NP2/PP4PP/R1B1R2K b - - 2 19",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "pin",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 1796,
+    "themes": "crushing middlegame pin short"
+  },
+  {
+    "puzzle_id": "7Dfhk",
+    "fen": "8/p2q1kp1/1p1PR2p/1P1P4/5p2/7P/P4KP1/8 w - - 2 39",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [
+      "fork"
+    ],
+    "rating": 1164,
+    "themes": "advancedPawn crushing endgame fork long queenRookEndgame"
+  },
+  {
+    "puzzle_id": "CDrHG",
+    "fen": "5rk1/p3qppp/b1r1p3/3pP3/3Q4/1PN5/P4PPP/2R1R1K1 w - - 1 18",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 1248,
+    "themes": "advantage discoveredAttack middlegame short"
+  },
+  {
+    "puzzle_id": "IG9Af",
+    "fen": "4r3/1p1b3k/pPpP1Qpb/2P5/1P4pP/2B5/8/5K2 b - - 9 43",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1444,
+    "themes": "crushing endgame pin short"
+  },
+  {
+    "puzzle_id": "CXEWj",
+    "fen": "4r2k/1pQ2pp1/p6p/2p2P2/P4Bn1/8/1P3qPP/R4B1K b - - 3 24",
+    "true_labels": [
+      "fork",
+      "pin"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1312,
+    "themes": "crushing fork middlegame pin veryLong"
+  },
+  {
+    "puzzle_id": "K9rpS",
+    "fen": "1k1r1r2/pp3p2/4pQ2/2q1P3/3Np2P/1R6/PPP3n1/1K1R4 w - - 2 28",
+    "true_labels": [
+      "pin",
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork",
+      "pin",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [],
+    "rating": 1529,
+    "themes": "crushing discoveredAttack long middlegame pin queensideAttack"
+  },
+  {
+    "puzzle_id": "Be6Du",
+    "fen": "rn3r1k/1pp4p/p5p1/3Qbq2/4N3/5P2/PP2N1P1/R1B1K2R b KQ - 0 17",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [],
+    "rating": 1422,
+    "themes": "advantage discoveredAttack opening short"
+  },
+  {
+    "puzzle_id": "8ZIV3",
+    "fen": "4r3/1p1b2p1/1ppr2kp/3pR3/5P2/2N2BP1/PPP4P/2K5 w - - 4 24",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "skewer"
+    ],
+    "rating": 1441,
+    "themes": "crushing endgame master short skewer"
+  },
+  {
+    "puzzle_id": "8SPj2",
+    "fen": "r3k2r/p3bppp/1qp1bn2/8/p2p1B2/1Q2P1P1/PPP2PBP/2KRR3 w kq - 0 22",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "fork"
+    ],
+    "rating": 1516,
+    "themes": "advantage capturingDefender fork long middlegame"
+  },
+  {
+    "puzzle_id": "FdA0k",
+    "fen": "4r1k1/5p1p/pn4p1/4q3/1P2R3/P5P1/3Q1PBP/6K1 b - - 0 39",
+    "true_labels": [
+      "pin",
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "pin",
+      "discoveredAttack"
+    ],
+    "rating": 1143,
+    "themes": "advantage deflection discoveredAttack endgame long pin"
+  },
+  {
+    "puzzle_id": "K426E",
+    "fen": "rnbq1rk1/pppp1p2/6pP/8/2B1Pb2/2NP4/PPP1KP2/R5QR w - - 0 14",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "pin",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 1498,
+    "themes": "kingsideAttack mate mateIn2 middlegame pin short"
+  },
+  {
+    "puzzle_id": "0iAhy",
+    "fen": "r1b2rk1/pp4pp/2p2p2/2P1pq2/3P2NP/6Q1/P4PP1/R2R2K1 w - - 0 23",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [],
+    "false_positives": [],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1219,
+    "themes": "crushing kingsideAttack middlegame pin short"
+  },
+  {
+    "puzzle_id": "KHqxI",
+    "fen": "8/8/4r3/3r1pp1/R3pkP1/4R2P/5PK1/8 w - - 0 53",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1853,
+    "themes": "crushing endgame master pin rookEndgame short"
+  },
+  {
+    "puzzle_id": "HXRYK",
+    "fen": "8/4P1k1/8/p2Bq1p1/P1P4p/8/7P/6RK w - - 1 46",
+    "true_labels": [],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [],
+    "rating": 1132,
+    "themes": "advancedPawn crushing deflection endgame long promotion"
+  },
+  {
+    "puzzle_id": "IeDFh",
+    "fen": "8/1pp3p1/p4p2/2kP4/2P2Pp1/rP2R1P1/4K3/8 w - - 6 39",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "skewer",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "skewer"
+    ],
+    "false_negatives": [],
+    "rating": 910,
+    "themes": "advantage discoveredAttack endgame rookEndgame short"
+  },
+  {
+    "puzzle_id": "6T7JD",
+    "fen": "r1b1k2N/pp2n1pp/1b2p3/1P1p4/3q4/P7/2PB1PPP/R2QKB1R b KQq - 0 13",
+    "true_labels": [],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 1072,
+    "themes": "attackingF2F7 mate mateIn1 middlegame oneMove"
+  },
+  {
+    "puzzle_id": "3QYTX",
+    "fen": "1r3rk1/1pp2p2/p2p1Pp1/4p1p1/P1B1Qbnq/3P4/1PP1R1R1/6K1 w - - 4 32",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1613,
+    "themes": "kingsideAttack mate mateIn2 middlegame pin short"
+  },
+  {
+    "puzzle_id": "IL6TZ",
+    "fen": "6r1/p7/3R2NK/5k2/2PR3p/4P1P1/P6r/8 b - - 0 37",
+    "true_labels": [
+      "skewer",
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "skewer"
+    ],
+    "false_positives": [],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 2146,
+    "themes": "advantage discoveredAttack discoveredCheck endgame skewer veryLong"
+  },
+  {
+    "puzzle_id": "D2F51",
+    "fen": "r2q1rk1/1p2bppp/p1np1n2/2pN1PB1/2B5/8/PPP2PPP/R2Q1RK1 b - - 1 11",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [],
+    "rating": 1031,
+    "themes": "advantage discoveredAttack opening short"
+  },
+  {
+    "puzzle_id": "3iK6h",
+    "fen": "3k2r1/2pp3p/1p4rp/1PbP4/2P1qp2/6PP/Q4P1K/5R2 w - - 2 29",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [],
+    "false_positives": [],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 1275,
+    "themes": "advantage discoveredAttack endgame long"
+  },
+  {
+    "puzzle_id": "FFG1X",
+    "fen": "r7/1p6/2kp1P1Q/p1p1q1n1/P1P3B1/1P1P3P/8/2KR4 b - - 0 39",
+    "true_labels": [],
+    "pred_labels": [
+      "pin"
+    ],
+    "false_positives": [
+      "pin"
+    ],
+    "false_negatives": [],
+    "rating": 2124,
+    "themes": "crushing endgame exposedKing long queensideAttack"
+  },
+  {
+    "puzzle_id": "GauIf",
+    "fen": "2r5/pp2k1b1/7p/1b2Rp1B/8/1P6/PK4PP/4R3 b - - 0 29",
+    "true_labels": [
+      "pin"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "pin"
+    ],
+    "rating": 1956,
+    "themes": "advantage defensiveMove endgame pin short"
+  },
+  {
+    "puzzle_id": "DrUXc",
+    "fen": "6k1/p2P3p/4N3/3K2b1/1p5n/1P5P/P4p2/8 w - - 2 55",
+    "true_labels": [],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [],
+    "rating": 1031,
+    "themes": "advancedPawn advantage endgame hangingPiece promotion short"
+  },
+  {
+    "puzzle_id": "FCJQZ",
+    "fen": "r5k1/pp1b1qb1/5pQB/2pPp2P/8/4R3/PP3PP1/6K1 w - - 2 25",
+    "true_labels": [],
+    "pred_labels": [
+      "pin"
+    ],
+    "false_positives": [
+      "pin"
+    ],
+    "false_negatives": [],
+    "rating": 1868,
+    "themes": "advantage middlegame quietMove short"
+  },
+  {
+    "puzzle_id": "8h5KK",
+    "fen": "3r4/1p2Rrk1/p1p5/8/2NP1n2/2P2q1p/PPQ4K/8 w - - 2 37",
+    "true_labels": [
+      "fork"
+    ],
+    "pred_labels": [
+      "fork",
+      "pin"
+    ],
+    "false_positives": [
+      "pin"
+    ],
+    "false_negatives": [],
+    "rating": 1415,
+    "themes": "advantage attraction exposedKing fork long middlegame"
+  },
+  {
+    "puzzle_id": "A1gke",
+    "fen": "r2qk3/1pp2p2/1p1p2rp/8/1P6/P3B1Q1/2P1bPP1/4RRK1 w q - 4 23",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [],
+    "false_positives": [],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 1818,
+    "themes": "advantage discoveredAttack discoveredCheck long middlegame sacrifice"
+  },
+  {
+    "puzzle_id": "AF24f",
+    "fen": "rr4k1/p4p1p/4pR2/Q7/2bP4/2P3P1/P5PP/6K1 b - - 0 22",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [
+      "skewer"
+    ],
+    "rating": 1357,
+    "themes": "advantage endgame skewer veryLong"
+  },
+  {
+    "puzzle_id": "JjcEU",
+    "fen": "8/1p5p/1r3k2/4pP1R/2PpB3/K2P1P2/4r3/8 w - - 3 40",
+    "true_labels": [
+      "skewer"
+    ],
+    "pred_labels": [
+      "skewer",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 999,
+    "themes": "crushing endgame short skewer"
+  },
+  {
+    "puzzle_id": "D8RmK",
+    "fen": "r1b5/ppp2k1p/5prB/4q1pQ/3pN3/3P4/PPP2PPP/2K1R3 w - - 1 18",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "pin"
+    ],
+    "false_positives": [
+      "pin"
+    ],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 1267,
+    "themes": "crushing discoveredAttack middlegame short"
+  },
+  {
+    "puzzle_id": "A0NRp",
+    "fen": "2r2r1k/pp3pp1/4b2p/2q5/3p1Q2/2N1R1R1/P1P2PPP/6K1 w - - 0 25",
+    "true_labels": [],
+    "pred_labels": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_negatives": [],
+    "rating": 2341,
+    "themes": "attraction crushing kingsideAttack middlegame sacrifice veryLong"
+  },
+  {
+    "puzzle_id": "IXic2",
+    "fen": "3r4/8/4p3/p1b2r1k/8/P4NRK/4qP2/2Q5 w - - 7 45",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [
+      "discoveredAttack"
+    ],
+    "rating": 981,
+    "themes": "advantage discoveredAttack discoveredCheck middlegame short"
+  },
+  {
+    "puzzle_id": "54lp9",
+    "fen": "3r2k1/2p3pp/3q4/3n4/p3P3/Pp1Q2P1/1P5P/1K1R3R b - - 0 36",
+    "true_labels": [
+      "discoveredAttack"
+    ],
+    "pred_labels": [
+      "fork",
+      "discoveredAttack"
+    ],
+    "false_positives": [
+      "fork"
+    ],
+    "false_negatives": [],
+    "rating": 866,
+    "themes": "advantage discoveredAttack endgame long queensideAttack"
+  }
+]
